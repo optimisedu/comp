@@ -1,5 +1,7 @@
-export function Sanitise() {	
-const [text, setText] = useState('');
+import { useState } from 'preact/hooks';
+
+export function Sanitise() {
+	const [text, setText] = useState('');
 
 	return (
 		<>
